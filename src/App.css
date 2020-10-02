@@ -1,0 +1,18 @@
+.rImage
+{
+	max-width: 100%;
+	height: auto;
+}
+ 
+#contactInfo
+{
+	text-align:right;
+	color:white;
+}
+
+div.navigation{
+	width:100%;
+    position:fixed;
+    top:0px;
+	z-index:9999;
+}
