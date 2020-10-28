@@ -107,7 +107,7 @@ class App extends React.Component {
 						}
 					  />
 					)}
-					<div className="row" style={{marginTop:"50px"}}>
+					<div className="row" style={{marginTop:"120px"}}>
 						<div className="col-md-12">
 							Welcome to Kowols Knitting Works!!<br/><br/> 
 							I make custom stockings, towels, and blankets. Below are examples of some projects I've done in the past. I can also do lots of other designs.<br/><br/> 
