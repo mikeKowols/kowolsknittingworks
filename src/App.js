@@ -107,11 +107,11 @@ class App extends React.Component {
 						}
 					  />
 					)}
-					<div className="row">
+					<div className="row" style={{marginTop:"50px"}}>
 						<div className="col-md-12">
 							Welcome to Kowols Knitting Works!!<br/><br/> 
-							I can make custom stockings, towels, and blankets. Below are examples of some projects I've done in the past. I can also do lots of other designs.<br/><br/> 
-							Please let contact me to place an order or to let me know if you have any questions. 
+							I make custom stockings, towels, and blankets. Below are examples of some projects I've done in the past. I can also do lots of other designs.<br/><br/> 
+							Please email me at <a href="mailto:pkowols@outlook.com">pkowols@outlook.com</a> or call me at (847) 269-7356 to place an order or to let me know if you have any questions. 
 						</div>
 					</div>
 					<div className="row">
