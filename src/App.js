@@ -3,7 +3,12 @@ import './App.css';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import './App.css';  
-
+import blanket_01 from './images/blanket_01.JPG';
+import blanket_02 from './images/blanket_02.jpg';
+import stocking_01 from './images/stocking_01.JPG';
+import stocking_02 from './images/stocking_02.JPG'; 
+import stocking_03 from './images/stocking_03.jpg'; 
+import stocking_04 from './images/stocking_04.jpg'; 
 import towel_01 from './images/towel_01.jpg';
 import towel_02 from './images/towel_02.jpg'; 
 import towel_03 from './images/towel_03.jpg'; 
@@ -18,12 +23,11 @@ import towel_11 from './images/towel_11.jpg';
 import towel_12 from './images/towel_12.jpg'; 
 import towel_13 from './images/towel_13.jpg'; 
 import towel_14 from './images/towel_14.jpg'; 
-import towel_15 from './images/towel_15.jpg'; 
 import towel_16 from './images/towel_16.jpg'; 
 import towel_17 from './images/towel_17.jpg'; 
 import towel_18 from './images/towel_18.jpg'; 
 import towel_19 from './images/towel_19.jpg'; 
-import towel_20 from './images/towel_20.jpg'; 
+
  
 const images = [
 	towel_01,
@@ -40,12 +44,17 @@ const images = [
 	towel_12,
 	towel_13,
 	towel_14,
-	towel_15,
 	towel_16,
 	towel_17,
 	towel_18,
 	towel_19,
-	towel_20,
+	blanket_01,
+	blanket_02,
+	stocking_01,
+	stocking_02,
+	stocking_03,
+	stocking_04
+
 		];
 
 class App extends React.Component {
@@ -98,11 +107,11 @@ class App extends React.Component {
 						}
 					  />
 					)}
-					<div className="row">
+					<div className="row" style={{marginTop:"120px"}}>
 						<div className="col-md-12">
-							Welcome to Kowols Knitting Works!!<br/><br/><br/>
-							Below are examples of projects that I have done in the past.<br/><br/><br/>
-							Please feel free to reach out to me with any questions or to place an order.
+							Welcome to Kowols Knitting Works!!<br/><br/> 
+							I make custom stockings, towels, and blankets. Below are examples of some projects I've done in the past. I can also do lots of other designs.<br/><br/> 
+							Please email me at <a href="mailto:pkowols@outlook.com">pkowols@outlook.com</a> or call me at (847) 269-7356 to place an order or to let me know if you have any questions. 
 						</div>
 					</div>
 					<div className="row">
@@ -162,16 +171,14 @@ class App extends React.Component {
 							<img className="rImage" src={towel_14} alt={towel_14} />
 						</div>
 						<div className="col-lg-3">
-							<img className="rImage" src={towel_15} alt={towel_15} />
-						</div>
-						<div className="col-lg-3">
 							<img className="rImage" src={towel_16} alt={towel_16} />
 						</div>
-					</div>
-					<div className="row align-items-center my-5">
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_17} alt={towel_17} />
 						</div>
+					</div>
+					<div className="row align-items-center my-5">
+						
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_18} alt={towel_18} />
 						</div>
@@ -179,7 +186,24 @@ class App extends React.Component {
 							<img className="rImage" src={towel_19} alt={towel_19} />
 						</div>
 						<div className="col-lg-3">
-							<img className="rImage" src={towel_20} alt={towel_20} />
+							<img className="rImage" src={blanket_01} alt={blanket_01} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={blanket_02} alt={blanket_02} />
+						</div>
+					</div>
+					<div className="row align-items-center my-5">
+						<div className="col-lg-3">
+							<img className="rImage" src={stocking_01} alt={stocking_01} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={stocking_02} alt={stocking_02} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={stocking_03} alt={stocking_03} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={stocking_04} alt={stocking_04} />
 						</div>
 					</div>
 							
