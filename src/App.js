@@ -15,19 +15,23 @@ import towel_03 from './images/towel_03.jpg';
 import towel_04 from './images/towel_04.jpg'; 
 import towel_05 from './images/towel_05.jpg'; 
 import towel_06 from './images/towel_06.jpg'; 
-import towel_07 from './images/towel_07.jpg'; 
-import towel_08 from './images/towel_08.jpg'; 
 import towel_09 from './images/towel_09.jpg'; 
-import towel_10 from './images/towel_10.jpg'; 
 import towel_11 from './images/towel_11.jpg'; 
 import towel_12 from './images/towel_12.jpg'; 
 import towel_13 from './images/towel_13.jpg'; 
 import towel_14 from './images/towel_14.jpg'; 
-import towel_16 from './images/towel_16.jpg'; 
 import towel_17 from './images/towel_17.jpg'; 
 import towel_18 from './images/towel_18.jpg'; 
 import towel_19 from './images/towel_19.jpg'; 
-
+import towel_20 from './images/towel_20.jpg'; 
+import towel_21 from './images/towel_21.jpg'; 
+import towel_22 from './images/towel_22.jpg'; 
+import towel_23 from './images/towel_23.jpg'; 
+import towel_24 from './images/towel_24.jpg'; 
+import towel_25 from './images/towel_25.jpg'; 
+import towel_26 from './images/towel_26.jpg'; 
+import towel_27 from './images/towel_27.jpg';
+import towel_28 from './images/towel_28.jpg'; 
  
 const images = [
 	towel_01,
@@ -36,18 +40,23 @@ const images = [
 	towel_04,
 	towel_05,
 	towel_06,
-	towel_07,
-	towel_08,
 	towel_09,
-	towel_10,
 	towel_11,
 	towel_12,
 	towel_13,
 	towel_14,
-	towel_16,
 	towel_17,
 	towel_18,
 	towel_19,
+	towel_20,
+	towel_21,
+	towel_22,
+	towel_23,
+	towel_24,
+	towel_25,
+	towel_26,
+	towel_27,
+	towel_28,
 	blanket_01,
 	blanket_02,
 	stocking_01,
@@ -114,6 +123,17 @@ class App extends React.Component {
 							Please email me at <a href="mailto:pkowols@outlook.com">pkowols@outlook.com</a> or call me at (847) 269-7356 to place an order or to let me know if you have any questions. 
 						</div>
 					</div>
+					<div className="row" style={{marginTop:"40px"}}>
+						<div className="col-md-12"><h3>Prices</h3></div>
+						 
+							
+					</div>
+					<div className="row" style={{marginTop:"40px"}}>
+						<div className="col-md-4">Towels    : $5</div>
+						<div className="col-md-4">Stockings : $20</div>
+						<div className="col-md-4">Blankets  : Please email or call for quote. </div>
+							
+					</div>
 					<div className="row">
 						<div className="col-md-12" style={{marginTop:"20px"}}>
 							<button className="btn btn-info" type="button" onClick={() => this.setState({ isOpen: true })}>
@@ -143,24 +163,25 @@ class App extends React.Component {
 							<img className="rImage" src={towel_06} alt={towel_06} />
 						</div>
 						<div className="col-lg-3">
-							<img className="rImage" src={towel_07} alt={towel_07} />
+							<img className="rImage" src={towel_20} alt={towel_20} />
 						</div>
 						<div className="col-lg-3">
-							<img className="rImage" src={towel_08} alt={towel_08} />
-						</div>
+							<img className="rImage" src={towel_21} alt={towel_21} />
+						</div> 
 					</div>
 					<div className="row align-items-center my-5">
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_09} alt={towel_09} />
 						</div>
-						<div className="col-lg-3">
-							<img className="rImage" src={towel_10} alt={towel_10} />
-						</div>
+						 
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_11} alt={towel_11} />
 						</div>
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_12} alt={towel_12} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_22} alt={towel_22} />
 						</div>
 					</div>
 					<div className="row align-items-center my-5">
@@ -170,11 +191,12 @@ class App extends React.Component {
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_14} alt={towel_14} />
 						</div>
-						<div className="col-lg-3">
-							<img className="rImage" src={towel_16} alt={towel_16} />
-						</div>
+						 
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_17} alt={towel_17} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_23} alt={towel_23} />
 						</div>
 					</div>
 					<div className="row align-items-center my-5">
@@ -185,14 +207,34 @@ class App extends React.Component {
 						<div className="col-lg-3">
 							<img className="rImage" src={towel_19} alt={towel_19} />
 						</div>
+
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_24} alt={towel_24} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_25} alt={towel_25} />
+						</div>
+						
+					</div>
+					<div className="row align-items-center my-5">
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_26} alt={towel_26} />
+						</div>
+
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_27} alt={towel_27} />
+						</div>
+						<div className="col-lg-3">
+							<img className="rImage" src={towel_28} alt={towel_28} />
+						</div>
 						<div className="col-lg-3">
 							<img className="rImage" src={blanket_01} alt={blanket_01} />
 						</div>
+					</div>
+					<div className="row align-items-center my-5">
 						<div className="col-lg-3">
 							<img className="rImage" src={blanket_02} alt={blanket_02} />
 						</div>
-					</div>
-					<div className="row align-items-center my-5">
 						<div className="col-lg-3">
 							<img className="rImage" src={stocking_01} alt={stocking_01} />
 						</div>
@@ -202,6 +244,13 @@ class App extends React.Component {
 						<div className="col-lg-3">
 							<img className="rImage" src={stocking_03} alt={stocking_03} />
 						</div>
+					</div>
+
+					
+					
+						
+					<div className="row align-items-center my-5">
+						
 						<div className="col-lg-3">
 							<img className="rImage" src={stocking_04} alt={stocking_04} />
 						</div>
