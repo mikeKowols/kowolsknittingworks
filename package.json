@@ -13,7 +13,8 @@
     "react-dom": "^16.13.1",
     "react-image-lightbox": "^5.1.1",
     "react-lightbox-component": "^1.2.1",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.3",
+    "url-parse": "^1.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
