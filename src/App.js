@@ -9,6 +9,7 @@ import stocking_01 from './images/stocking_01.JPG';
 import stocking_02 from './images/stocking_02.JPG'; 
 import stocking_03 from './images/stocking_03.jpg'; 
 import stocking_04 from './images/stocking_04.jpg'; 
+import stocking_05 from './images/stocking_05.jpg'; 
 import towel_01 from './images/towel_01.jpg';
 import towel_02 from './images/towel_02.jpg'; 
 import towel_03 from './images/towel_03.jpg'; 
@@ -60,7 +61,8 @@ const images = [
 	stocking_01,
 	stocking_02,
 	stocking_03,
-	stocking_04
+	stocking_04,
+	stocking_05
 
 		];
 
@@ -231,6 +233,13 @@ class App extends React.Component {
 						<div className="col-md-3">
 							<img className="rImage" src={stocking_04} alt={stocking_04} />
 						</div>
+					</div>
+					<div className="row align-items-center my-5">
+						
+						<div className="col-md-3">
+							<img className="rImage" src={stocking_05} alt={stocking_05} />
+						</div>
+						
 					</div>
 					<div className="row align-items-center my-5">
 						<div className="col-md-3">
