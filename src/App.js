@@ -281,7 +281,7 @@ function Footer() {
       <footer className="bg-dark fixed-bottom">
         <div className="container">
           <p className="m-0 text-center text-white">
-            Copyright &copy; Kowols Knitting Works 2020
+            Copyright &copy; Kowols Knitting Works 2024
           </p>
         </div>
       </footer>
