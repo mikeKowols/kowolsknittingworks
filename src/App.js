@@ -130,7 +130,7 @@ class App extends React.Component {
 					</div>
 					<div className="row" style={{marginTop:"40px"}}>
 						<div className="col-md-4">Towels    : $5</div>
-						<div className="col-md-4">Stockings : $20</div>
+						<div className="col-md-4">Stockings : $25</div>
 						<div className="col-md-4">Blankets  : Please email or call for quote. </div>
 							
 					</div>
