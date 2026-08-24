@@ -1,4 +1,3 @@
-<!--TEST -TEST-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +19,6 @@
       border-radius: 6px;
       transition: transform 0.2s;
     }
-
-    row{
-      margin-top:20px;
-    }
     .gallery img:hover { transform: scale(1.03); }
   </style>
 </head>
@@ -33,7 +28,7 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Kowols Knitting Works</a>
-      <span class="text-white-50">pkowols@outlook.com &middot; (847) 269-7356</span>
+      <span class="text-white-50"></span>
     </div>
   </nav>
 
@@ -56,136 +51,133 @@
 
     <hr class="my-4">
 
-    <!-- Image Gallery (Clicking opens lightbox automatically) -->
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_20.jpg"><img src="/src/images/towel_20.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_04.jpg"><img src="/src/images/towel_04.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/stocking_01.JPG"><img src="/src/images/stocking_01.JPG" alt="Stocking"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/blanket_01.JPG"><img src="/src/images/blanket_01.JPG" alt="Blanket"></a>
-      </div>
-    </div>
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/blanket_02.jpg"><img src="/src/images/blanket_02.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/stocking_02.JPG"><img src="/src/images/stocking_02.JPG" alt="Stocking"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/stocking_03.jpg"><img src="/src/images/stocking_03.jpg" alt="Stocking"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/stocking_04.jpg"><img src="/src/images/stocking_04.jpg" alt="Stocking"></a>
-      </div>
-     
-     
-    </div>
-
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_02.jpg"><img src="/src/images/towel_02.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/stocking_05.jpg"><img src="/src/images/stocking_05.jpg" alt="Stocking"></a>
-      </div>
-       <div class="col-6 col-md-3">
-        <a href="/src/images/towel_03.jpg"><img src="/src/images/towel_02.jpg" alt="Towel"></a>
-      </div>
-            <div class="col-6 col-md-3">
-        <a href="/src/images/towel_05.jpg"><img src="/src/images/towel_05.jpg" alt="Towel"></a>
-      </div>
-
-    </div>
-
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_06.jpg"><img src="/src/images/towel_06.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_07.jpg"><img src="/src/images/towel_07.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_08.jpg"><img src="/src/images/towel_08.jpg" alt="Towel"></a>
-      </div>
+    <!-- Image Gallery Wrapper -->
+    <div id="gallery" class="gallery">
+      <div class="row my-4 g-3">
         <div class="col-6 col-md-3">
-        <a href="/src/images/towel_12.jpg"><img src="/src/images/towel_12.jpg" alt="Towel"></a>
-      </div>
-    </div>
-   
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_09.jpg"><img src="/src/images/towel_09.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_10.jpg"><img src="/src/images/towel_10.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_11.jpg"><img src="/src/images/towel_11.jpg" alt="Towel"></a>
-      </div>
-    
+          <a href="/src/images/towel_20.jpg"><img src="/src/images/towel_20.jpg" alt="Towel"></a>
+        </div>
         <div class="col-6 col-md-3">
-        <a href="/src/images/towel_17.jpg"><img src="/src/images/towel_17.jpg" alt="Towel"></a>
+          <a href="/src/images/towel_04.jpg"><img src="/src/images/towel_04.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/stocking_01.JPG"><img src="/src/images/stocking_01.JPG" alt="Stocking"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/blanket_01.JPG"><img src="/src/images/blanket_01.JPG" alt="Blanket"></a>
+        </div>
       </div>
-    </div>
-    <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_13.jpg"><img src="/src/images/towel_13.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/blanket_02.jpg"><img src="/src/images/blanket_02.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/stocking_02.JPG"><img src="/src/images/stocking_02.JPG" alt="Stocking"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/stocking_03.jpg"><img src="/src/images/stocking_03.jpg" alt="Stocking"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/stocking_04.jpg"><img src="/src/images/stocking_04.jpg" alt="Stocking"></a>
+        </div>
       </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_14.jpg"><img src="/src/images/towel_14.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_02.jpg"><img src="/src/images/towel_02.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/stocking_05.jpg"><img src="/src/images/stocking_05.jpg" alt="Stocking"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_03.jpg"><img src="/src/images/towel_02.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_05.jpg"><img src="/src/images/towel_05.jpg" alt="Towel"></a>
+        </div>
       </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_16.jpg"><img src="/src/images/towel_16.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_06.jpg"><img src="/src/images/towel_06.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_07.jpg"><img src="/src/images/towel_07.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_08.jpg"><img src="/src/images/towel_08.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_12.jpg"><img src="/src/images/towel_12.jpg" alt="Towel"></a>
+        </div>
       </div>
-     
-       <div class="col-6 col-md-3">
-        <a href="/src/images/towel_22.jpg"><img src="/src/images/towel_22.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_09.jpg"><img src="/src/images/towel_09.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_10.jpg"><img src="/src/images/towel_10.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_11.jpg"><img src="/src/images/towel_11.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_17.jpg"><img src="/src/images/towel_17.jpg" alt="Towel"></a>
+        </div>
       </div>
-    </div>
-     <div class="row my-4 g-3 gallery">
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_18.jpg"><img src="/src/images/towel_18.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_13.jpg"><img src="/src/images/towel_13.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_14.jpg"><img src="/src/images/towel_14.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_16.jpg"><img src="/src/images/towel_16.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_22.jpg"><img src="/src/images/towel_22.jpg" alt="Towel"></a>
+        </div>
       </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_19.jpg"><img src="/src/images/towel_19.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_18.jpg"><img src="/src/images/towel_18.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_19.jpg"><img src="/src/images/towel_19.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_21.jpg"><img src="/src/images/towel_21.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_26.jpg"><img src="/src/images/towel_26.jpg" alt="Towel"></a>
+        </div>
       </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_21.jpg"><img src="/src/images/towel_21.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_23.jpg"><img src="/src/images/towel_23.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_24.jpg"><img src="/src/images/towel_24.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_25.jpg"><img src="/src/images/towel_25.jpg" alt="Towel"></a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_28.jpg"><img src="/src/images/towel_28.jpg" alt="Towel"></a>
+        </div>
       </div>
-      
-         <div class="col-6 col-md-3">
-        <a href="/src/images/towel_26.jpg"><img src="/src/images/towel_26.jpg" alt="Towel"></a>
+
+      <div class="row my-4 g-3">
+        <div class="col-6 col-md-3">
+          <a href="/src/images/towel_27.jpg"><img src="/src/images/towel_27.jpg" alt="Towel"></a>
+        </div>
       </div>
-    </div>
-    <div class="row my-4 g-3 gallery">
-     
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_23.jpg"><img src="/src/images/towel_23.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_24.jpg"><img src="/src/images/towel_24.jpg" alt="Towel"></a>
-      </div>
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_25.jpg"><img src="/src/images/towel_25.jpg" alt="Towel"></a>
-      </div>
-       <div class="col-6 col-md-3">
-        <a href="/src/images/towel_28.jpg"><img src="/src/images/towel_28.jpg" alt="Towel"></a>
-      </div>
-    </div>
-    <div class="row my-4 g-3 gallery">
-    
-      <div class="col-6 col-md-3">
-        <a href="/src/images/towel_27.jpg"><img src="/src/images/towel_27.jpg" alt="Towel"></a>
-      </div>
-    
-       
     </div>
    
   </div>
@@ -199,7 +191,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
   <script>
     window.addEventListener('load', function() {
-      baguetteBox.run('.gallery');
+      baguetteBox.run('#gallery');
     });
   </script>
 </body>
